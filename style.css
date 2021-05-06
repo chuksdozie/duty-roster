@@ -1,0 +1,35 @@
+body {
+  margin: auto;
+  width: 100%;
+  background-color: #3d3e39;
+}
+
+#underconst {
+  height: 95vh;
+}
+
+#underconst1 {
+  display: none;
+}
+
+.mybut {
+  display: none;
+}
+
+.constimg {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  #underconst1 {
+    display: block;
+    height: 95vh;
+  }
+
+  #underconst {
+    display: none;
+  }
+}
